@@ -5,9 +5,9 @@
     </requires>
     <extension point="xbmc.addon.repository">
         <dir minversion="18.0.0">
-            <info>https://github.com/bartosz-antosik/kodi_libretro_buildbot_game_addons_aarch64/raw/main/addons_aarch64.xml</info>
-            <checksum>https://github.com/bartosz-antosik/kodi_libretro_buildbot_game_addons_aarch64/raw/main/addons_aarch64.xml.md5</checksum>
-            <datadir>https://github.com/bartosz-antosik/kodi_libretro_buildbot_game_addons_aarch64/raw/main/</datadir>
+            <info>https://github.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/raw/main/addons_aarch64.xml</info>
+            <checksum>https://github.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/raw/main/addons_aarch64.xml.md5</checksum>
+            <datadir>https://github.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/raw/main/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
