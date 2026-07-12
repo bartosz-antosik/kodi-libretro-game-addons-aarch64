@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kodi_libretro_buildbot_game_addons_armhf" name="Kodi Libretro Buildbot Game Addons ARM (armhf)" version="1.0.1" provider-name="zachmorris">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi_libretro_game_addons_armhf" name="Kodi Libretro Buildbot Game Addons ARM (armhf)" version="1.0.1" provider-name="bartosz-antosik">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository">
         <dir minversion="18.0.0">
-            <info>https://github.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/raw/main/addons_armhf.xml</info>
-            <checksum>https://github.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/raw/main/addons_armhf.xml.md5</checksum>
-            <datadir>https://github.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/raw/main/</datadir>
+            <info>https://raw.githubusercontent.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/main/addons_armhf.xml</info>
+            <checksum>https://raw.githubusercontent.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/main/addons_armhf.xml.md5</checksum>
+            <datadir>https://raw.githubusercontent.com/bartosz-antosik/kodi-libretro-game-addons-aarch64/main/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
