@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-  <addon id="game.libretro.gambatte_libretro_buildbot" name="Nintendo - Game Boy / Color (Gambatte)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gambatte" name="Nintendo - Game Boy / Color (Gambatte)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gameboy"/>
@@ -26,7 +26,7 @@
       <path>linux_aarch64/game.libretro.gambatte_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.xrick_libretro_buildbot" name="Rick Dangerous (XRick)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.xrick" name="Rick Dangerous (XRick)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -52,7 +52,7 @@
       <path>linux_aarch64/game.libretro.xrick_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.chailove_libretro_buildbot" name="ChaiLove" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.chailove" name="ChaiLove" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -80,7 +80,7 @@
       <path>linux_aarch64/game.libretro.chailove_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fbalpha2012_libretro_buildbot" name="Arcade (FB Alpha 2012)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fbalpha2012" name="Arcade (FB Alpha 2012)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -106,7 +106,7 @@
       <path>linux_aarch64/game.libretro.fbalpha2012_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.bk_libretro_buildbot" name="Elektronika - BK-0010/BK-0011(M)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.bk" name="Elektronika - BK-0010/BK-0011(M)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -131,7 +131,7 @@
       <path>linux_aarch64/game.libretro.bk_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.prosystem_libretro_buildbot" name="Atari - 7800 (ProSystem)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.prosystem" name="Atari - 7800 (ProSystem)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.7800.gamepad"/>
@@ -158,7 +158,7 @@
       <path>linux_aarch64/game.libretro.prosystem_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.ep128emu_core_libretro_buildbot" name="Enterprise - 64/128 (ep128emu)" version="1.2024.19898" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.ep128emu_core" name="Enterprise - 64/128 (ep128emu)" version="1.2024.19898" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -181,7 +181,7 @@
       <path>linux_aarch64/game.libretro.ep128emu_core_libretro_buildbot-1.2024.19898.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_psx_hw_libretro_buildbot" name="Sony - PlayStation (Beetle PSX HW)" version="1.2024.20008" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_psx_hw" name="Sony - PlayStation (Beetle PSX HW)" version="1.2024.20008" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.ps.dualanalog"/>
@@ -214,7 +214,7 @@
       <path>linux_aarch64/game.libretro.mednafen_psx_hw_libretro_buildbot-1.2024.20008.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.o2em_libretro_buildbot" name="Magnavox - Odyssey2 / Philips Videopac+ (O2EM)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.o2em" name="Magnavox - Odyssey2 / Philips Videopac+ (O2EM)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -241,7 +241,7 @@
       <path>linux_aarch64/game.libretro.o2em_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.bsnes_libretro_buildbot" name="Nintendo - SNES / SFC (bsnes)" version="1.2025.20259" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.bsnes" name="Nintendo - SNES / SFC (bsnes)" version="1.2025.20259" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes"/>
@@ -267,7 +267,7 @@
       <path>linux_aarch64/game.libretro.bsnes_libretro_buildbot-1.2025.20259.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.genesis_plus_gx_libretro_buildbot" name="Sega - MS/GG/MD/CD (Genesis Plus GX)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.genesis_plus_gx" name="Sega - MS/GG/MD/CD (Genesis Plus GX)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.genesis.mouse"/>
@@ -294,7 +294,7 @@
       <path>linux_aarch64/game.libretro.genesis_plus_gx_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.cannonball_libretro_buildbot" name="Cannonball" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.cannonball" name="Cannonball" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -320,7 +320,7 @@
       <path>linux_aarch64/game.libretro.cannonball_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_x128_libretro_buildbot" name="Commodore - C128 (VICE x128)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_x128" name="Commodore - C128 (VICE x128)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -348,7 +348,7 @@
       <path>linux_aarch64/game.libretro.vice_x128_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vecx_libretro_buildbot" name="GCE - Vectrex (vecx)" version="1.2025.20094" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vecx" name="GCE - Vectrex (vecx)" version="1.2025.20094" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.vectrex"/>
@@ -374,7 +374,7 @@
       <path>linux_aarch64/game.libretro.vecx_libretro_buildbot-1.2025.20094.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fbalpha2012_cps2_libretro_buildbot" name="Arcade (FB Alpha 2012 CPS-2)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fbalpha2012_cps2" name="Arcade (FB Alpha 2012 CPS-2)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -400,7 +400,7 @@
       <path>linux_aarch64/game.libretro.fbalpha2012_cps2_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.dinothawr_libretro_buildbot" name="Dinothawr" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.dinothawr" name="Dinothawr" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -426,7 +426,7 @@
       <path>linux_aarch64/game.libretro.dinothawr_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.yabause_libretro_buildbot" name="Sega - Saturn (Yabause)" version="1.2022.19321" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.yabause" name="Sega - Saturn (Yabause)" version="1.2022.19321" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.saturn"/>
@@ -453,7 +453,7 @@
       <path>linux_aarch64/game.libretro.yabause_libretro_buildbot-1.2022.19321.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.freechaf_libretro_buildbot" name="Fairchild - ChannelF (FreeChaF)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.freechaf" name="Fairchild - ChannelF (FreeChaF)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -478,7 +478,7 @@
       <path>linux_aarch64/game.libretro.freechaf_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.smsplus_libretro_buildbot" name="Sega - MS/GG (SMS Plus GX)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.smsplus" name="Sega - MS/GG (SMS Plus GX)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -503,7 +503,7 @@
       <path>linux_aarch64/game.libretro.smsplus_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.race_libretro_buildbot" name="SNK - Neo Geo Pocket / Color (RACE)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.race" name="SNK - Neo Geo Pocket / Color (RACE)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -528,7 +528,7 @@
       <path>linux_aarch64/game.libretro.race_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.ecwolf_libretro_buildbot" name="Wolfenstein 3D (ECWolf)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.ecwolf" name="Wolfenstein 3D (ECWolf)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -551,7 +551,7 @@
       <path>linux_aarch64/game.libretro.ecwolf_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fbneo_libretro_buildbot" name="Arcade (FinalBurn Neo)" version="1.2026.20517" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fbneo" name="Arcade (FinalBurn Neo)" version="1.2026.20517" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -577,7 +577,7 @@
       <path>linux_aarch64/game.libretro.fbneo_libretro_buildbot-1.2026.20517.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fceumm_libretro_buildbot" name="Nintendo - NES / Famicom (FCEUmm)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fceumm" name="Nintendo - NES / Famicom (FCEUmm)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nes"/>
@@ -603,7 +603,7 @@
       <path>linux_aarch64/game.libretro.fceumm_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_supergrafx_libretro_buildbot" name="NEC - PC Engine SuperGrafx (Beetle SuperGrafx)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_supergrafx" name="NEC - PC Engine SuperGrafx (Beetle SuperGrafx)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.pce"/>
@@ -629,7 +629,7 @@
       <path>linux_aarch64/game.libretro.mednafen_supergrafx_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.puae2021_libretro_buildbot" name="Commodore - Amiga (PUAE 2021)" version="1.2024.20008" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.puae2021" name="Commodore - Amiga (PUAE 2021)" version="1.2024.20008" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -657,7 +657,7 @@
       <path>linux_aarch64/game.libretro.puae2021_libretro_buildbot-1.2024.20008.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.reminiscence_libretro_buildbot" name="Flashback (REminiscence)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.reminiscence" name="Flashback (REminiscence)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -682,7 +682,7 @@
       <path>linux_aarch64/game.libretro.reminiscence_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.geolith_libretro_buildbot" name="SNK - Neo Geo AES/MVS/CD (Geolith)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.geolith" name="SNK - Neo Geo AES/MVS/CD (Geolith)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -704,7 +704,7 @@
       <path>linux_aarch64/game.libretro.geolith_libretro_buildbot-1.2025.20430.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mame2003_libretro_buildbot" name="Arcade (MAME 2003)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mame2003" name="Arcade (MAME 2003)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -729,7 +729,7 @@
       <path>linux_aarch64/game.libretro.mame2003_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_ngp_libretro_buildbot" name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_ngp" name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.ngp"/>
@@ -755,7 +755,7 @@
       <path>linux_aarch64/game.libretro.mednafen_ngp_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.doukutsu_rs_libretro_buildbot" name="Cave Story (drs)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.doukutsu_rs" name="Cave Story (drs)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -777,7 +777,7 @@
       <path>linux_aarch64/game.libretro.doukutsu_rs_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.81_libretro_buildbot" name="Sinclair - ZX 81 (EightyOne)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.81" name="Sinclair - ZX 81 (EightyOne)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.joystick.2button"/>
@@ -806,7 +806,7 @@
       <path>linux_aarch64/game.libretro.81_libretro_buildbot-1.2025.20366.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.melonds_libretro_buildbot" name="Nintendo - DS (melonDS)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.melonds" name="Nintendo - DS (melonDS)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nds"/>
@@ -832,7 +832,7 @@
       <path>linux_aarch64/game.libretro.melonds_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_wswan_libretro_buildbot" name="Bandai - WonderSwan/Color (Beetle Wonderswan)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_wswan" name="Bandai - WonderSwan/Color (Beetle Wonderswan)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.ws"/>
@@ -858,7 +858,7 @@
       <path>linux_aarch64/game.libretro.mednafen_wswan_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vba_next_libretro_buildbot" name="Nintendo - Game Boy Advance (VBA Next)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vba_next" name="Nintendo - Game Boy Advance (VBA Next)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
@@ -884,7 +884,7 @@
       <path>linux_aarch64/game.libretro.vba_next_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.picodrive_libretro_buildbot" name="Sega - MS/GG/MD/CD/32X (PicoDrive)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.picodrive" name="Sega - MS/GG/MD/CD/32X (PicoDrive)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.genesis.6button"/>
@@ -910,7 +910,7 @@
       <path>linux_aarch64/game.libretro.picodrive_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.wasm4_libretro_buildbot" name="WASM-4" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.wasm4" name="WASM-4" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -933,7 +933,7 @@
       <path>linux_aarch64/game.libretro.wasm4_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vbam_libretro_buildbot" name="Nintendo - Game Boy Advance (VBA-M)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vbam" name="Nintendo - Game Boy Advance (VBA-M)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
@@ -959,7 +959,7 @@
       <path>linux_aarch64/game.libretro.vbam_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.stella_libretro_buildbot" name="Atari - 2600 (Stella)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.stella" name="Atari - 2600 (Stella)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.2600"/>
@@ -985,7 +985,7 @@
       <path>linux_aarch64/game.libretro.stella_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.gme_libretro_buildbot" name="Game Music Emu" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gme" name="Game Music Emu" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1010,7 +1010,7 @@
       <path>linux_aarch64/game.libretro.gme_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.quicknes_libretro_buildbot" name="Nintendo - NES / Famicom (QuickNES)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.quicknes" name="Nintendo - NES / Famicom (QuickNES)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nes"/>
@@ -1036,7 +1036,7 @@
       <path>linux_aarch64/game.libretro.quicknes_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.snes9x_libretro_buildbot" name="Nintendo - SNES / SFC (Snes9x)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.snes9x" name="Nintendo - SNES / SFC (Snes9x)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes.super.scope"/>
@@ -1066,7 +1066,7 @@
       <path>linux_aarch64/game.libretro.snes9x_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mrboom_libretro_buildbot" name="Mr.Boom (Bomberman)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mrboom" name="Mr.Boom (Bomberman)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -1092,7 +1092,7 @@
       <path>linux_aarch64/game.libretro.mrboom_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_xpet_libretro_buildbot" name="Commodore - PET (VICE xpet)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_xpet" name="Commodore - PET (VICE xpet)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -1120,7 +1120,7 @@
       <path>linux_aarch64/game.libretro.vice_xpet_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mame2010_libretro_buildbot" name="Arcade (MAME 2010)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mame2010" name="Arcade (MAME 2010)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1145,7 +1145,7 @@
       <path>linux_aarch64/game.libretro.mame2010_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_xvic_libretro_buildbot" name="Commodore - VIC-20 (VICE xvic)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_xvic" name="Commodore - VIC-20 (VICE xvic)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -1173,7 +1173,7 @@
       <path>linux_aarch64/game.libretro.vice_xvic_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.parallel_n64_libretro_buildbot" name="Nintendo - Nintendo 64 (ParaLLEl N64)" version="1.2023.19650" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.parallel_n64" name="Nintendo - Nintendo 64 (ParaLLEl N64)" version="1.2023.19650" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.n64"/>
@@ -1200,7 +1200,7 @@
       <broken>Not yet compatible</broken>
     </extension>
   </addon>
-  <addon id="game.libretro.uzem_libretro_buildbot" name="Uzebox (Uzem)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.uzem" name="Uzebox (Uzem)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1225,7 +1225,7 @@
       <path>linux_aarch64/game.libretro.uzem_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.same_cdi_libretro_buildbot" name="Philips - CDi (SAME CDi)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.same_cdi" name="Philips - CDi (SAME CDi)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1250,7 +1250,7 @@
       <path>linux_aarch64/game.libretro.same_cdi_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.gpsp_libretro_buildbot" name="Nintendo - Game Boy Advance (gpSP)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gpsp" name="Nintendo - Game Boy Advance (gpSP)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1275,7 +1275,7 @@
       <path>linux_aarch64/game.libretro.gpsp_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.atari800_libretro_buildbot" name="Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.atari800" name="Atari - 400/800/600XL/800XL/130XE/5200 (Atari800)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.2600"/>
@@ -1301,7 +1301,7 @@
       <path>linux_aarch64/game.libretro.atari800_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.yabasanshiro_libretro_buildbot" name="Sega - Saturn (YabaSanshiro)" version="1.2023.19720" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.yabasanshiro" name="Sega - Saturn (YabaSanshiro)" version="1.2023.19720" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.saturn.mouse"/>
@@ -1334,7 +1334,7 @@
       <path>linux_aarch64/game.libretro.yabasanshiro_libretro_buildbot-1.2023.19720.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.potator_libretro_buildbot" name="Watara - Supervision (Potator)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.potator" name="Watara - Supervision (Potator)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1359,7 +1359,7 @@
       <path>linux_aarch64/game.libretro.potator_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.puae_libretro_buildbot" name="Commodore - Amiga (PUAE)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.puae" name="Commodore - Amiga (PUAE)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -1387,7 +1387,7 @@
       <path>linux_aarch64/game.libretro.puae_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.crocods_libretro_buildbot" name="Amstrad - CPC (CrocoDS)" version="1.2024.20021" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.crocods" name="Amstrad - CPC (CrocoDS)" version="1.2024.20021" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1412,7 +1412,7 @@
       <path>linux_aarch64/game.libretro.crocods_libretro_buildbot-1.2024.20021.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.genesis_plus_gx_wide_libretro_buildbot" name="Sega - MS/GG/MD/CD (Genesis Plus GX Wide)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.genesis_plus_gx_wide" name="Sega - MS/GG/MD/CD (Genesis Plus GX Wide)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.genesis.mouse"/>
@@ -1439,7 +1439,7 @@
       <path>linux_aarch64/game.libretro.genesis_plus_gx_wide_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.stella2014_libretro_buildbot" name="Atari - 2600 (Stella 2014)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.stella2014" name="Atari - 2600 (Stella 2014)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.2600"/>
@@ -1465,7 +1465,7 @@
       <path>linux_aarch64/game.libretro.stella2014_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.DoubleCherryGB_libretro_buildbot" name="Nintendo - Game Boy / Color (DoubleCherryGB)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.DoubleCherryGB" name="Nintendo - Game Boy / Color (DoubleCherryGB)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1487,7 +1487,7 @@
       <path>linux_aarch64/game.libretro.DoubleCherryGB_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.np2kai_libretro_buildbot" name="NEC - PC-98 (Neko Project II Kai)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.np2kai" name="NEC - PC-98 (Neko Project II Kai)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -1517,7 +1517,7 @@
       <path>linux_aarch64/game.libretro.np2kai_libretro_buildbot-1.2025.20430.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fbalpha2012_neogeo_libretro_buildbot" name="Arcade (FB Alpha 2012 Neo Geo)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fbalpha2012_neogeo" name="Arcade (FB Alpha 2012 Neo Geo)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -1543,7 +1543,7 @@
       <path>linux_aarch64/game.libretro.fbalpha2012_neogeo_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vemulator_libretro_buildbot" name="VeMUlator" version="1.2022.19252" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vemulator" name="VeMUlator" version="1.2022.19252" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1565,7 +1565,7 @@
       <path>linux_aarch64/game.libretro.vemulator_libretro_buildbot-1.2022.19252.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.sameduck_libretro_buildbot" name="Mega Duck / Cougar Boy (SameDuck)" version="1.2023.19694" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.sameduck" name="Mega Duck / Cougar Boy (SameDuck)" version="1.2023.19694" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -1588,7 +1588,7 @@
       <path>linux_aarch64/game.libretro.sameduck_libretro_buildbot-1.2023.19694.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.sameboy_libretro_buildbot" name="Nintendo - Game Boy / Color (SameBoy)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.sameboy" name="Nintendo - Game Boy / Color (SameBoy)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
@@ -1614,7 +1614,7 @@
       <path>linux_aarch64/game.libretro.sameboy_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_vb_libretro_buildbot" name="Nintendo - Virtual Boy (Beetle VB)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_vb" name="Nintendo - Virtual Boy (Beetle VB)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.vb"/>
@@ -1640,7 +1640,7 @@
       <path>linux_aarch64/game.libretro.mednafen_vb_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.arduous_libretro_buildbot" name="Arduboy (Arduous)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.arduous" name="Arduboy (Arduous)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -1663,7 +1663,7 @@
       <path>linux_aarch64/game.libretro.arduous_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mame2003_plus_libretro_buildbot" name="Arcade (MAME 2003-Plus)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mame2003_plus" name="Arcade (MAME 2003-Plus)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1688,7 +1688,7 @@
       <path>linux_aarch64/game.libretro.mame2003_plus_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_xcbm2_libretro_buildbot" name="Commodore - CBM-II 6x0/7x0 (VICE xcbm2)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_xcbm2" name="Commodore - CBM-II 6x0/7x0 (VICE xcbm2)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -1716,7 +1716,7 @@
       <path>linux_aarch64/game.libretro.vice_xcbm2_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.handy_libretro_buildbot" name="Atari - Lynx (Handy)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.handy" name="Atari - Lynx (Handy)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.lynx"/>
@@ -1742,7 +1742,7 @@
       <path>linux_aarch64/game.libretro.handy_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.tic80_libretro_buildbot" name="TIC-80" version="1.2022.19231" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.tic80" name="TIC-80" version="1.2022.19231" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1767,7 +1767,7 @@
       <path>linux_aarch64/game.libretro.tic80_libretro_buildbot-1.2022.19231.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.scummvm_libretro_buildbot" name="ScummVM" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.scummvm" name="ScummVM" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -1795,7 +1795,7 @@
       <path>linux_aarch64/game.libretro.scummvm_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.snes9x2005_plus_libretro_buildbot" name="Nintendo - SNES / SFC (Snes9x 2005 Plus)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.snes9x2005_plus" name="Nintendo - SNES / SFC (Snes9x 2005 Plus)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes.super.scope"/>
@@ -1825,7 +1825,7 @@
       <path>linux_aarch64/game.libretro.snes9x2005_plus_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.pcsx_rearmed_libretro_buildbot" name="Sony - PlayStation (PCSX ReARMed)" version="1.2026.20589" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.pcsx_rearmed" name="Sony - PlayStation (PCSX ReARMed)" version="1.2026.20589" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.ps.dualanalog"/>
@@ -1856,7 +1856,7 @@
       <path>linux_aarch64/game.libretro.pcsx_rearmed_libretro_buildbot-1.2026.20589.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.gearsystem_libretro_buildbot" name="Sega - MS/GG/SG-1000 (Gearsystem)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gearsystem" name="Sega - MS/GG/SG-1000 (Gearsystem)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.genesis.mouse"/>
@@ -1883,7 +1883,7 @@
       <path>linux_aarch64/game.libretro.gearsystem_libretro_buildbot-1.2025.20430.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.lowresnx_libretro_buildbot" name="LowRes NX" version="1.2021.18686" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.lowresnx" name="LowRes NX" version="1.2021.18686" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -1906,7 +1906,7 @@
       <path>linux_aarch64/game.libretro.lowresnx_libretro_buildbot-1.2021.18686.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.theodore_libretro_buildbot" name="Thomson - MO/TO (Theodore)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.theodore" name="Thomson - MO/TO (Theodore)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -1931,7 +1931,7 @@
       <path>linux_aarch64/game.libretro.theodore_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.snes9x2002_libretro_buildbot" name="Nintendo - SNES / SFC (Snes9x 2002)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.snes9x2002" name="Nintendo - SNES / SFC (Snes9x 2002)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes.super.scope"/>
@@ -1961,7 +1961,7 @@
       <path>linux_aarch64/game.libretro.snes9x2002_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fbalpha2012_cps3_libretro_buildbot" name="Arcade (FB Alpha 2012 CPS-3)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fbalpha2012_cps3" name="Arcade (FB Alpha 2012 CPS-3)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -1987,7 +1987,7 @@
       <path>linux_aarch64/game.libretro.fbalpha2012_cps3_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.lutro_libretro_buildbot" name="Lua Engine (Lutro)" version="1.2021.18686" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.lutro" name="Lua Engine (Lutro)" version="1.2021.18686" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2013,7 +2013,7 @@
       <path>linux_aarch64/game.libretro.lutro_libretro_buildbot-1.2021.18686.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.meteor_libretro_buildbot" name="Nintendo - Game Boy Advance (Meteor)" version="1.2021.18686" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.meteor" name="Nintendo - Game Boy Advance (Meteor)" version="1.2021.18686" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
@@ -2039,7 +2039,7 @@
       <path>linux_aarch64/game.libretro.meteor_libretro_buildbot-1.2021.18686.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_xscpu64_libretro_buildbot" name="Commodore - C64 SuperCPU (VICE xscpu64)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_xscpu64" name="Commodore - C64 SuperCPU (VICE xscpu64)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -2067,7 +2067,7 @@
       <path>linux_aarch64/game.libretro.vice_xscpu64_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.ardens_libretro_buildbot" name="Arduboy (Ardens)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.ardens" name="Arduboy (Ardens)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2089,7 +2089,7 @@
       <path>linux_aarch64/game.libretro.ardens_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mesen_libretro_buildbot" name="Nintendo - NES / Famicom (Mesen)" version="1.2023.19571" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mesen" name="Nintendo - NES / Famicom (Mesen)" version="1.2023.19571" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2115,7 +2115,7 @@
       <broken>Not yet compatible</broken>
     </extension>
   </addon>
-  <addon id="game.libretro.gearcoleco_libretro_buildbot" name="Coleco - ColecoVision (Gearcoleco)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gearcoleco" name="Coleco - ColecoVision (Gearcoleco)" version="1.2025.20430" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2141,7 +2141,7 @@
       <path>linux_aarch64/game.libretro.gearcoleco_libretro_buildbot-1.2025.20430.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.bluemsx_libretro_buildbot" name="MSX/SVI/ColecoVision/SG-1000 (blueMSX)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.bluemsx" name="MSX/SVI/ColecoVision/SG-1000 (blueMSX)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.colecovision"/>
@@ -2169,7 +2169,7 @@
       <path>linux_aarch64/game.libretro.bluemsx_libretro_buildbot-1.2025.20366.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_pce_fast_libretro_buildbot" name="NEC - PC Engine / CD (Beetle PCE FAST)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_pce_fast" name="NEC - PC Engine / CD (Beetle PCE FAST)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.pce"/>
@@ -2195,7 +2195,7 @@
       <path>linux_aarch64/game.libretro.mednafen_pce_fast_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.gearboy_libretro_buildbot" name="Nintendo - Game Boy / Color (Gearboy)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gearboy" name="Nintendo - Game Boy / Color (Gearboy)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2220,7 +2220,7 @@
       <path>linux_aarch64/game.libretro.gearboy_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.minivmac_libretro_buildbot" name="Mac II (minivmac)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.minivmac" name="Mac II (minivmac)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -2247,7 +2247,7 @@
       <path>linux_aarch64/game.libretro.minivmac_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fuse_libretro_buildbot" name="Sinclair - ZX Spectrum (Fuse)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fuse" name="Sinclair - ZX Spectrum (Fuse)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -2274,7 +2274,7 @@
       <path>linux_aarch64/game.libretro.fuse_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fmsx_libretro_buildbot" name="Microsoft - MSX (fMSX)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fmsx" name="Microsoft - MSX (fMSX)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.msx.keyboard"/>
@@ -2301,7 +2301,7 @@
       <path>linux_aarch64/game.libretro.fmsx_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.nestopia_libretro_buildbot" name="Nintendo - NES / Famicom (Nestopia)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.nestopia" name="Nintendo - NES / Famicom (Nestopia)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nes"/>
@@ -2328,7 +2328,7 @@
       <path>linux_aarch64/game.libretro.nestopia_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.numero_libretro_buildbot" name="Texas Instruments TI-83 (Numero)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.numero" name="Texas Instruments TI-83 (Numero)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2351,7 +2351,7 @@
       <path>linux_aarch64/game.libretro.numero_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.fbalpha2012_cps1_libretro_buildbot" name="Arcade (FB Alpha 2012 CPS-1)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.fbalpha2012_cps1" name="Arcade (FB Alpha 2012 CPS-1)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2377,7 +2377,7 @@
       <path>linux_aarch64/game.libretro.fbalpha2012_cps1_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mame_libretro_buildbot" name="Arcade (MAME)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mame" name="Arcade (MAME)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -2404,7 +2404,7 @@
       <path>linux_aarch64/game.libretro.mame_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.virtualjaguar_libretro_buildbot" name="Atari - Jaguar (Virtual Jaguar)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.virtualjaguar" name="Atari - Jaguar (Virtual Jaguar)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2430,7 +2430,7 @@
       <path>linux_aarch64/game.libretro.virtualjaguar_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.opera_libretro_buildbot" name="The 3DO Company - 3DO (Opera)" version="1.2024.20021" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.opera" name="The 3DO Company - 3DO (Opera)" version="1.2024.20021" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.3do"/>
@@ -2456,7 +2456,7 @@
       <path>linux_aarch64/game.libretro.opera_libretro_buildbot-1.2024.20021.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.freeintv_libretro_buildbot" name="Mattel - Intellivision (FreeIntv)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.freeintv" name="Mattel - Intellivision (FreeIntv)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2481,7 +2481,7 @@
       <path>linux_aarch64/game.libretro.freeintv_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.ppsspp_libretro_buildbot" name="Sony - PlayStation Portable (PPSSPP)" version="1.2024.20055" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.ppsspp" name="Sony - PlayStation Portable (PPSSPP)" version="1.2024.20055" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.psp"/>
@@ -2508,7 +2508,7 @@
       <broken>Not yet compatible</broken>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_xcbm5x0_libretro_buildbot" name="Commodore - CBM-II 5x0 (VICE xcbm5x0)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_xcbm5x0" name="Commodore - CBM-II 5x0 (VICE xcbm5x0)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -2536,7 +2536,7 @@
       <path>linux_aarch64/game.libretro.vice_xcbm5x0_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.x1_libretro_buildbot" name="Sharp X1 (X Millennium)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.x1" name="Sharp X1 (X Millennium)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2558,7 +2558,7 @@
       <path>linux_aarch64/game.libretro.x1_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.prboom_libretro_buildbot" name="Doom (PrBoom)" version="1.2024.19899" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.prboom" name="Doom (PrBoom)" version="1.2024.19899" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -2586,7 +2586,7 @@
       <path>linux_aarch64/game.libretro.prboom_libretro_buildbot-1.2024.19899.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_xplus4_libretro_buildbot" name="Commodore - PLUS/4 (VICE xplus4)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_xplus4" name="Commodore - PLUS/4 (VICE xplus4)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -2614,7 +2614,7 @@
       <path>linux_aarch64/game.libretro.vice_xplus4_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.craft_libretro_buildbot" name="Minecraft (Craft)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.craft" name="Minecraft (Craft)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2639,7 +2639,7 @@
       <path>linux_aarch64/game.libretro.craft_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mu_libretro_buildbot" name="Palm OS (Mu)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mu" name="Palm OS (Mu)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -2669,7 +2669,7 @@
       <path>linux_aarch64/game.libretro.mu_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.easyrpg_libretro_buildbot" name="RPG Maker 2000/2003 (EasyRPG)" version="1.2026.20460" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.easyrpg" name="RPG Maker 2000/2003 (EasyRPG)" version="1.2026.20460" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2694,7 +2694,7 @@
       <path>linux_aarch64/game.libretro.easyrpg_libretro_buildbot-1.2026.20460.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_x64sc_libretro_buildbot" name="Commodore - C64 (VICE x64sc, accurate)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_x64sc" name="Commodore - C64 (VICE x64sc, accurate)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -2722,7 +2722,7 @@
       <path>linux_aarch64/game.libretro.vice_x64sc_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.nxengine_libretro_buildbot" name="Cave Story (NXEngine)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.nxengine" name="Cave Story (NXEngine)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2748,7 +2748,7 @@
       <path>linux_aarch64/game.libretro.nxengine_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.flycast_libretro_buildbot" name="Sega - Dreamcast/Naomi (Flycast)" version="1.2024.19849" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.flycast" name="Sega - Dreamcast/Naomi (Flycast)" version="1.2024.19849" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.dreamcast"/>
@@ -2775,7 +2775,7 @@
       <broken>Not yet compatible</broken>
     </extension>
   </addon>
-  <addon id="game.libretro.a5200_libretro_buildbot" name="Atari - 5200 (a5200)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.a5200" name="Atari - 5200 (a5200)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2800,7 +2800,7 @@
       <path>linux_aarch64/game.libretro.a5200_libretro_buildbot-1.2025.20366.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.quasi88_libretro_buildbot" name="NEC - PC-8000 / PC-8800 series (QUASI88)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.quasi88" name="NEC - PC-8000 / PC-8800 series (QUASI88)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2822,7 +2822,7 @@
       <path>linux_aarch64/game.libretro.quasi88_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.applewin_libretro_buildbot" name="Apple II (AppleWin)" version="1.2026.20478" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.applewin" name="Apple II (AppleWin)" version="1.2026.20478" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2844,7 +2844,7 @@
       <path>linux_aarch64/game.libretro.applewin_libretro_buildbot-1.2026.20478.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_supafaust_libretro_buildbot" name="Nintendo - SNES / SFC (Beetle Supafaust)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_supafaust" name="Nintendo - SNES / SFC (Beetle Supafaust)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2869,7 +2869,7 @@
       <path>linux_aarch64/game.libretro.mednafen_supafaust_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.b2_libretro_buildbot" name="Acorn - BBC Micro (b2)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.b2" name="Acorn - BBC Micro (b2)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -2891,7 +2891,7 @@
       <path>linux_aarch64/game.libretro.b2_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.dosbox_svn_libretro_buildbot" name="DOS (DOSBox-SVN)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.dosbox_svn" name="DOS (DOSBox-SVN)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -2921,7 +2921,7 @@
       <path>linux_aarch64/game.libretro.dosbox_svn_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_lynx_libretro_buildbot" name="Atari - Lynx (Beetle Lynx)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_lynx" name="Atari - Lynx (Beetle Lynx)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.lynx"/>
@@ -2947,7 +2947,7 @@
       <path>linux_aarch64/game.libretro.mednafen_lynx_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.tgbdual_libretro_buildbot" name="Nintendo - Game Boy / Color (TGB Dual)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.tgbdual" name="Nintendo - Game Boy / Color (TGB Dual)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gameboy"/>
@@ -2973,7 +2973,7 @@
       <path>linux_aarch64/game.libretro.tgbdual_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.retro8_libretro_buildbot" name="PICO-8 (Retro8)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.retro8" name="PICO-8 (Retro8)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -2996,7 +2996,7 @@
       <path>linux_aarch64/game.libretro.retro8_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.desmume2015_libretro_buildbot" name="Nintendo - DS (DeSmuME 2015)" version="1.2023.19569" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.desmume2015" name="Nintendo - DS (DeSmuME 2015)" version="1.2023.19569" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nds"/>
@@ -3022,7 +3022,7 @@
       <path>linux_aarch64/game.libretro.desmume2015_libretro_buildbot-1.2023.19569.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.pokemini_libretro_buildbot" name="Nintendo - Pokemon Mini (PokeMini)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.pokemini" name="Nintendo - Pokemon Mini (PokeMini)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
@@ -3048,7 +3048,7 @@
       <path>linux_aarch64/game.libretro.pokemini_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.cap32_libretro_buildbot" name="Amstrad - CPC/GX4000 (Caprice32)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.cap32" name="Amstrad - CPC/GX4000 (Caprice32)" version="1.2025.20366" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -3076,7 +3076,7 @@
       <path>linux_aarch64/game.libretro.cap32_libretro_buildbot-1.2025.20366.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.dosbox_pure_libretro_buildbot" name="DOS (DOSBox-Pure)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.dosbox_pure" name="DOS (DOSBox-Pure)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -3106,7 +3106,7 @@
       <path>linux_aarch64/game.libretro.dosbox_pure_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.swanstation_libretro_buildbot" name="Sony - PlayStation (SwanStation)" version="1.2024.19881" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.swanstation" name="Sony - PlayStation (SwanStation)" version="1.2024.19881" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -3131,7 +3131,7 @@
       <path>linux_aarch64/game.libretro.swanstation_libretro_buildbot-1.2024.19881.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.tyrquake_libretro_buildbot" name="Quake (TyrQuake)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.tyrquake" name="Quake (TyrQuake)" version="1.2021.18653" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -3159,7 +3159,7 @@
       <path>linux_aarch64/game.libretro.tyrquake_libretro_buildbot-1.2021.18653.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mgba_libretro_buildbot" name="Nintendo - Game Boy Advance (mGBA)" version="1.2024.20071" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mgba" name="Nintendo - Game Boy Advance (mGBA)" version="1.2024.20071" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
@@ -3185,7 +3185,7 @@
       <path>linux_aarch64/game.libretro.mgba_libretro_buildbot-1.2024.20071.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.hatari_libretro_buildbot" name="Atari - ST/STE/TT/Falcon (Hatari)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.hatari" name="Atari - ST/STE/TT/Falcon (Hatari)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -3213,7 +3213,7 @@
       <path>linux_aarch64/game.libretro.hatari_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.snes9x2005_libretro_buildbot" name="Nintendo - SNES / SFC (Snes9x 2005)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.snes9x2005" name="Nintendo - SNES / SFC (Snes9x 2005)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes.super.scope"/>
@@ -3243,7 +3243,7 @@
       <path>linux_aarch64/game.libretro.snes9x2005_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.nekop2_libretro_buildbot" name="NEC - PC-98 (Neko Project II)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.nekop2" name="NEC - PC-98 (Neko Project II)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.keyboard"/>
@@ -3273,7 +3273,7 @@
       <path>linux_aarch64/game.libretro.nekop2_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vice_x64_libretro_buildbot" name="Commodore - C64 (VICE x64, fast)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vice_x64" name="Commodore - C64 (VICE x64, fast)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.mouse"/>
@@ -3301,7 +3301,7 @@
       <path>linux_aarch64/game.libretro.vice_x64_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.px68k_libretro_buildbot" name="Sharp - X68000 (PX68k)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.px68k" name="Sharp - X68000 (PX68k)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -3326,7 +3326,7 @@
       <path>linux_aarch64/game.libretro.px68k_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.neocd_libretro_buildbot" name="SNK - Neo Geo CD (NeoCD)" version="1.2024.20063" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.neocd" name="SNK - Neo Geo CD (NeoCD)" version="1.2024.20063" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -3351,7 +3351,7 @@
       <path>linux_aarch64/game.libretro.neocd_libretro_buildbot-1.2024.20063.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mupen64plus_next_libretro_buildbot" name="Nintendo - Nintendo 64 (Mupen64Plus-Next)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mupen64plus_next" name="Nintendo - Nintendo 64 (Mupen64Plus-Next)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.n64"/>
@@ -3377,7 +3377,7 @@
       <path>linux_aarch64/game.libretro.mupen64plus_next_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mednafen_pcfx_libretro_buildbot" name="NEC - PC-FX (Beetle PC-FX)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mednafen_pcfx" name="NEC - PC-FX (Beetle PC-FX)" version="1.2025.20368" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.pcfx.mouse"/>
@@ -3404,7 +3404,7 @@
       <path>linux_aarch64/game.libretro.mednafen_pcfx_libretro_buildbot-1.2025.20368.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.gw_libretro_buildbot" name="Handheld Electronic (GW)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.gw" name="Handheld Electronic (GW)" version="1.2026.20642" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -3429,7 +3429,7 @@
       <path>linux_aarch64/game.libretro.gw_libretro_buildbot-1.2026.20642.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.mame2000_libretro_buildbot" name="Arcade (MAME 2000)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.mame2000" name="Arcade (MAME 2000)" version="1.2025.20429" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
@@ -3454,7 +3454,7 @@
       <path>linux_aarch64/game.libretro.mame2000_libretro_buildbot-1.2025.20429.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.snes9x2010_libretro_buildbot" name="Nintendo - SNES / SFC (Snes9x 2010)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.snes9x2010" name="Nintendo - SNES / SFC (Snes9x 2010)" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes.super.scope"/>
@@ -3484,7 +3484,7 @@
       <path>linux_aarch64/game.libretro.snes9x2010_libretro_buildbot-1.2025.20369.zip</path>
     </extension>
   </addon>
-  <addon id="game.libretro.vircon32_libretro_buildbot" name="Vircon32" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
+  <addon id="game.libretro.vircon32" name="Vircon32" version="1.2025.20369" provider-name="http://buildbot.libretro.com/">
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
