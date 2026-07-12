@@ -5,7 +5,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gameboy"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gambatte_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gambatte_libretro.so">
       <platforms>Game Boy/Game Boy Color</platforms>
       <extensions>gb|gbc|dmg</extensions>
       <supports_vfs>true</supports_vfs>
@@ -31,7 +31,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="xrick_libretro.so">
+    <extension point="kodi.gameclient" library_linux="xrick_libretro.so">
       <platforms>Rick Dangerous Game Engine</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -59,7 +59,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="chailove_libretro.so">
+    <extension point="kodi.gameclient" library_linux="chailove_libretro.so">
       <platforms>ChaiLove</platforms>
       <extensions>chai|chailove</extensions>
       <supports_vfs>true</supports_vfs>
@@ -85,7 +85,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fbalpha2012_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fbalpha2012_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>iso|zip|7z</extensions>
       <supports_vfs>false</supports_vfs>
@@ -113,7 +113,7 @@
       <import addon="game.controller.elektronika.bk"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="bk_libretro.so">
+    <extension point="kodi.gameclient" library_linux="bk_libretro.so">
       <platforms>BK-0010/BK-0011(M)</platforms>
       <extensions>bin</extensions>
       <supports_vfs>true</supports_vfs>
@@ -137,7 +137,7 @@
       <import addon="game.controller.atari.7800.gamepad"/>
       <import addon="game.controller.atari.7800.proline"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="prosystem_libretro.so">
+    <extension point="kodi.gameclient" library_linux="prosystem_libretro.so">
       <platforms>Atari 7800</platforms>
       <extensions>a78|bin|cdf</extensions>
       <supports_vfs>true</supports_vfs>
@@ -163,7 +163,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="ep128emu_core_libretro.so">
+    <extension point="kodi.gameclient" library_linux="ep128emu_core_libretro.so">
       <platforms>128</platforms>
       <extensions>img|dsk|tap|dtf|com|trn|128|bas|cas|cdt|tzx|wav|tvcwav|.</extensions>
       <supports_vfs>false</supports_vfs>
@@ -193,7 +193,7 @@
       <import addon="game.controller.ps.guncon.japan"/>
       <import addon="game.controller.ps.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_psx_hw_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_psx_hw_libretro.so">
       <platforms>PlayStation</platforms>
       <extensions>cue|toc|m3u|ccd|exe|pbp|chd|bin</extensions>
       <supports_vfs>false</supports_vfs>
@@ -220,7 +220,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.odyssey2"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="o2em_libretro.so">
+    <extension point="kodi.gameclient" library_linux="o2em_libretro.so">
       <platforms>Magnavox Odyssey2 / Philips Videopac+</platforms>
       <extensions>bin</extensions>
       <supports_vfs>true</supports_vfs>
@@ -246,7 +246,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.snes"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="bsnes_libretro.so">
+    <extension point="kodi.gameclient" library_linux="bsnes_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|sfc|swc|fig|gb|gbc|bs</extensions>
       <supports_vfs>false</supports_vfs>
@@ -273,7 +273,7 @@
       <import addon="game.controller.genesis.mouse"/>
       <import addon="game.controller.genesis.6button"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="genesis_plus_gx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="genesis_plus_gx_libretro.so">
       <platforms>Sega 8/16-bit (Various)</platforms>
       <extensions>mdx|md|smd|gen|bin|cue|iso|sms|bms|gg|sg|68k|sgd|chd|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -299,7 +299,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="cannonball_libretro.so">
+    <extension point="kodi.gameclient" library_linux="cannonball_libretro.so">
       <platforms>Outrun Game Engine</platforms>
       <extensions>game|88</extensions>
       <supports_vfs>false</supports_vfs>
@@ -327,7 +327,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_x128_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_x128_libretro.so">
       <platforms>C128</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -353,7 +353,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.vectrex"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vecx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vecx_libretro.so">
       <platforms>Vectrex</platforms>
       <extensions>bin|vec</extensions>
       <supports_vfs>true</supports_vfs>
@@ -379,7 +379,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fbalpha2012_cps2_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fbalpha2012_cps2_libretro.so">
       <platforms>CP System II</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -405,7 +405,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="dinothawr_libretro.so">
+    <extension point="kodi.gameclient" library_linux="dinothawr_libretro.so">
       <platforms>Dinothawr Game Engine</platforms>
       <extensions>game</extensions>
       <supports_vfs>false</supports_vfs>
@@ -432,7 +432,7 @@
       <import addon="game.controller.saturn"/>
       <import addon="game.controller.saturn.3d"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="yabause_libretro.so">
+    <extension point="kodi.gameclient" library_linux="yabause_libretro.so">
       <platforms>Saturn</platforms>
       <extensions>bin|ccd|chd|cue|iso|mds|zip|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -457,7 +457,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="freechaf_libretro.so">
+    <extension point="kodi.gameclient" library_linux="freechaf_libretro.so">
       <platforms>FreeChaF</platforms>
       <extensions>bin|chf</extensions>
       <supports_vfs>true</supports_vfs>
@@ -482,7 +482,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="smsplus_libretro.so">
+    <extension point="kodi.gameclient" library_linux="smsplus_libretro.so">
       <platforms>Sega 8-bit</platforms>
       <extensions>sms|bin|rom|col|gg|sg</extensions>
       <supports_vfs>true</supports_vfs>
@@ -507,7 +507,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="race_libretro.so">
+    <extension point="kodi.gameclient" library_linux="race_libretro.so">
       <platforms>Neo Geo Pocket (Color)</platforms>
       <extensions>ngp|ngc|ngpc|npc</extensions>
       <supports_vfs>false</supports_vfs>
@@ -533,7 +533,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="ecwolf_libretro.so">
+    <extension point="kodi.gameclient" library_linux="ecwolf_libretro.so">
       <platforms>Wolfenstein 3D Game Engine</platforms>
       <extensions>wl6|n3d|sod|sdm|wl1|pk3|exe</extensions>
       <supports_vfs>false</supports_vfs>
@@ -556,7 +556,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fbneo_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fbneo_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>zip|7z|cue|ccd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -582,7 +582,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nes"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fceumm_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fceumm_libretro.so">
       <platforms>Nintendo Entertainment System</platforms>
       <extensions>fds|nes|unif|unf</extensions>
       <supports_vfs>false</supports_vfs>
@@ -608,7 +608,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.pce"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_supergrafx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_supergrafx_libretro.so">
       <platforms>PC Engine SuperGrafx</platforms>
       <extensions>pce|sgx|cue|ccd|chd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -636,7 +636,7 @@
       <import addon="game.controller.amiga.cd32"/>
       <import addon="game.controller.keyboard"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="puae2021_libretro.so">
+    <extension point="kodi.gameclient" library_linux="puae2021_libretro.so">
       <platforms>Amiga</platforms>
       <extensions>adf|adz|dms|fdi|ipf|hdf|hdz|lha|slave|info|cue|ccd|nrg|mds|iso|chd|uae|m3u|zip|7z|rp9|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -661,7 +661,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="reminiscence_libretro.so">
+    <extension point="kodi.gameclient" library_linux="reminiscence_libretro.so">
       <platforms>Flashback Game Engine</platforms>
       <extensions>map|aba|seq|lev</extensions>
       <supports_vfs>false</supports_vfs>
@@ -686,7 +686,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="geolith_libretro.so">
+    <extension point="kodi.gameclient" library_linux="geolith_libretro.so">
       <platforms>Neo Geo</platforms>
       <extensions>neo|cue|chd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -708,7 +708,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mame2003_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mame2003_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -734,7 +734,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.ngp"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_ngp_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_ngp_libretro.so">
       <platforms>Neo Geo Pocket (Color)</platforms>
       <extensions>ngp|ngc|ngpc|npc</extensions>
       <supports_vfs>false</supports_vfs>
@@ -759,7 +759,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="doukutsu_rs_libretro.so">
+    <extension point="kodi.gameclient" library_linux="doukutsu_rs_libretro.so">
       <platforms>Cave Story Game Engine</platforms>
       <extensions>exe|dll|so</extensions>
       <supports_vfs>false</supports_vfs>
@@ -785,7 +785,7 @@
       <import addon="game.controller.joystick.4button"/>
       <import addon="game.controller.mouse"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="81_libretro.so">
+    <extension point="kodi.gameclient" library_linux="81_libretro.so">
       <platforms>ZX81</platforms>
       <extensions>p|tzx|t81</extensions>
       <supports_vfs>true</supports_vfs>
@@ -811,7 +811,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nds"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="melonds_libretro.so">
+    <extension point="kodi.gameclient" library_linux="melonds_libretro.so">
       <platforms>Nintendo DS</platforms>
       <extensions>nds|ids|dsi</extensions>
       <supports_vfs>true</supports_vfs>
@@ -837,7 +837,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.ws"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_wswan_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_wswan_libretro.so">
       <platforms>WonderSwan/Color</platforms>
       <extensions>ws|wsc|pc2|pcv2</extensions>
       <supports_vfs>true</supports_vfs>
@@ -863,7 +863,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vba_next_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vba_next_libretro.so">
       <platforms>Game Boy Advance</platforms>
       <extensions>gba</extensions>
       <supports_vfs>true</supports_vfs>
@@ -889,7 +889,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.genesis.6button"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="picodrive_libretro.so">
+    <extension point="kodi.gameclient" library_linux="picodrive_libretro.so">
       <platforms>Sega 8/16-bit + 32X (Various)</platforms>
       <extensions>bin|gen|smd|md|32x|cue|iso|chd|sms|gg|sg|sc|m3u|68k|sgd|pco</extensions>
       <supports_vfs>false</supports_vfs>
@@ -915,7 +915,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="wasm4_libretro.so">
+    <extension point="kodi.gameclient" library_linux="wasm4_libretro.so">
       <platforms>WASM-4</platforms>
       <extensions>wasm</extensions>
       <supports_vfs>true</supports_vfs>
@@ -938,7 +938,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vbam_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vbam_libretro.so">
       <platforms>Game Boy/Game Boy Color/Game Boy Advance</platforms>
       <extensions>dmg|gb|gbc|cgb|sgb|gba</extensions>
       <supports_vfs>true</supports_vfs>
@@ -964,7 +964,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.2600"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="stella_libretro.so">
+    <extension point="kodi.gameclient" library_linux="stella_libretro.so">
       <platforms>Atari 2600</platforms>
       <extensions>a26|bin</extensions>
       <supports_vfs>true</supports_vfs>
@@ -989,7 +989,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gme_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gme_libretro.so">
       <platforms>Music</platforms>
       <extensions>ay|gbs|gym|hes|kss|nsf|nsfe|sap|spc|vgm|vgz|zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1015,7 +1015,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nes"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="quicknes_libretro.so">
+    <extension point="kodi.gameclient" library_linux="quicknes_libretro.so">
       <platforms>Nintendo Entertainment System</platforms>
       <extensions>nes</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1045,7 +1045,7 @@
       <import addon="game.controller.snes.multitap"/>
       <import addon="game.controller.snes.mouse"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="snes9x_libretro.so">
+    <extension point="kodi.gameclient" library_linux="snes9x_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|sfc|swc|fig|bs|st</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1071,7 +1071,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mrboom_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mrboom_libretro.so">
       <platforms>Mr.Boom</platforms>
       <extensions>desktop</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1099,7 +1099,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_xpet_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_xpet_libretro.so">
       <platforms>PET</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1124,7 +1124,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mame2010_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mame2010_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>zip|7z</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1152,7 +1152,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_xvic_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_xvic_libretro.so">
       <platforms>VIC-20</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|20|40|60|a0|b0|rom|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1178,7 +1178,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.n64"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="parallel_n64_libretro.so">
+    <extension point="kodi.gameclient" library_linux="parallel_n64_libretro.so">
       <platforms>Nintendo 64</platforms>
       <extensions>n64|v64|z64|bin|u1|ndd</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1204,7 +1204,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="uzem_libretro.so">
+    <extension point="kodi.gameclient" library_linux="uzem_libretro.so">
       <platforms>Uzebox</platforms>
       <extensions>uze</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1229,7 +1229,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="same_cdi_libretro.so">
+    <extension point="kodi.gameclient" library_linux="same_cdi_libretro.so">
       <platforms>CD-i</platforms>
       <extensions>chd|iso|cue</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1254,7 +1254,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gpsp_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gpsp_libretro.so">
       <platforms>Game Boy Advance</platforms>
       <extensions>gba|bin</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1280,7 +1280,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.2600"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="atari800_libretro.so">
+    <extension point="kodi.gameclient" library_linux="atari800_libretro.so">
       <platforms>Atari 8-bit Family</platforms>
       <extensions>xfd|atr|dcm|cas|bin|a52|zip|atx|car|rom|com|xex|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1313,7 +1313,7 @@
       <import addon="game.controller.saturn.mission.stick"/>
       <import addon="game.controller.saturn.arcade.racer"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="yabasanshiro_libretro.so">
+    <extension point="kodi.gameclient" library_linux="yabasanshiro_libretro.so">
       <platforms>Saturn</platforms>
       <extensions>bin|ccd|chd|cue|iso|mds|zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1338,7 +1338,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="potator_libretro.so">
+    <extension point="kodi.gameclient" library_linux="potator_libretro.so">
       <platforms>Supervision</platforms>
       <extensions>bin|sv</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1366,7 +1366,7 @@
       <import addon="game.controller.amiga.cd32"/>
       <import addon="game.controller.keyboard"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="puae_libretro.so">
+    <extension point="kodi.gameclient" library_linux="puae_libretro.so">
       <platforms>Amiga</platforms>
       <extensions>adf|adz|dms|fdi|ipf|hdf|hdz|lha|slave|info|cue|ccd|nrg|mds|iso|chd|uae|m3u|zip|7z|rp9|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1391,7 +1391,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="crocods_libretro.so">
+    <extension point="kodi.gameclient" library_linux="crocods_libretro.so">
       <platforms>CPC</platforms>
       <extensions>dsk|sna|kcr</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1418,7 +1418,7 @@
       <import addon="game.controller.genesis.mouse"/>
       <import addon="game.controller.genesis.6button"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="genesis_plus_gx_wide_libretro.so">
+    <extension point="kodi.gameclient" library_linux="genesis_plus_gx_wide_libretro.so">
       <platforms>Sega 8/16-bit (Various)</platforms>
       <extensions>mdx|md|smd|gen|bin|cue|iso|sms|bms|gg|sg|68k|sgd|chd|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1444,7 +1444,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.2600"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="stella2014_libretro.so">
+    <extension point="kodi.gameclient" library_linux="stella2014_libretro.so">
       <platforms>Atari 2600</platforms>
       <extensions>a26|bin</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1469,7 +1469,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="DoubleCherryGB_libretro.so">
+    <extension point="kodi.gameclient" library_linux="DoubleCherryGB_libretro.so">
       <platforms>Game Boy/Game Boy Color</platforms>
       <extensions>cgb|dmg|gb|gbc|sgb</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1496,7 +1496,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.gravis.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="np2kai_libretro.so">
+    <extension point="kodi.gameclient" library_linux="np2kai_libretro.so">
       <platforms>PC-98</platforms>
       <extensions>d98|zip|98d|fdi|fdd|2hd|tfd|d88|88d|hdm|xdf|dup|cmd|hdi|thd|nhd|hdd|hdn</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1522,7 +1522,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fbalpha2012_neogeo_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fbalpha2012_neogeo_libretro.so">
       <platforms>Neo Geo</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1547,7 +1547,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vemulator_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vemulator_libretro.so">
       <platforms>SEGA Visual Memory Unit</platforms>
       <extensions>vms|dci|bin</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1570,7 +1570,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="sameduck_libretro.so">
+    <extension point="kodi.gameclient" library_linux="sameduck_libretro.so">
       <platforms>Mega Duck</platforms>
       <extensions>bin|duck</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1593,7 +1593,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="sameboy_libretro.so">
+    <extension point="kodi.gameclient" library_linux="sameboy_libretro.so">
       <platforms>Game Boy/Game Boy Color</platforms>
       <extensions>gb|gbc</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1619,7 +1619,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.vb"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_vb_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_vb_libretro.so">
       <platforms>Virtual Boy</platforms>
       <extensions>vb|vboy|bin</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1645,7 +1645,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="arduous_libretro.so">
+    <extension point="kodi.gameclient" library_linux="arduous_libretro.so">
       <platforms>Arduboy</platforms>
       <extensions>hex</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1667,7 +1667,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mame2003_plus_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mame2003_plus_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1695,7 +1695,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_xcbm2_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_xcbm2_libretro.so">
       <platforms>CBM-II</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1721,7 +1721,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.lynx"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="handy_libretro.so">
+    <extension point="kodi.gameclient" library_linux="handy_libretro.so">
       <platforms>Lynx</platforms>
       <extensions>lnx|lyx|o</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1746,7 +1746,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="tic80_libretro.so">
+    <extension point="kodi.gameclient" library_linux="tic80_libretro.so">
       <platforms>TIC-80</platforms>
       <extensions>tic</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1774,7 +1774,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="scummvm_libretro.so">
+    <extension point="kodi.gameclient" library_linux="scummvm_libretro.so">
       <platforms>Game engine</platforms>
       <extensions>scummvm</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1804,7 +1804,7 @@
       <import addon="game.controller.snes.multitap"/>
       <import addon="game.controller.snes.mouse"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="snes9x2005_plus_libretro.so">
+    <extension point="kodi.gameclient" library_linux="snes9x2005_plus_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1835,7 +1835,7 @@
       <import addon="game.controller.ps.guncon.japan"/>
       <import addon="game.controller.ps.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="pcsx_rearmed_libretro.so">
+    <extension point="kodi.gameclient" library_linux="pcsx_rearmed_libretro.so">
       <platforms>PlayStation</platforms>
       <extensions>bin|cue|img|mdf|pbp|toc|cbn|m3u|ccd|chd|iso|exe</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1862,7 +1862,7 @@
       <import addon="game.controller.genesis.mouse"/>
       <import addon="game.controller.genesis.6button"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gearsystem_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gearsystem_libretro.so">
       <platforms>Sega 8-bit (MS/GG/SG-1000)</platforms>
       <extensions>sms|gg|sg|mv|bin|rom</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1888,7 +1888,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="lowresnx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="lowresnx_libretro.so">
       <platforms>LowRes NX</platforms>
       <extensions>nx</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1910,7 +1910,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="theodore_libretro.so">
+    <extension point="kodi.gameclient" library_linux="theodore_libretro.so">
       <platforms>Thomson MO/TO</platforms>
       <extensions>fd|sap|k7|m7|m5|rom</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1940,7 +1940,7 @@
       <import addon="game.controller.snes.multitap"/>
       <import addon="game.controller.snes.mouse"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="snes9x2002_libretro.so">
+    <extension point="kodi.gameclient" library_linux="snes9x2002_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
       <supports_vfs>true</supports_vfs>
@@ -1966,7 +1966,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fbalpha2012_cps3_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fbalpha2012_cps3_libretro.so">
       <platforms>CP System III</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -1992,7 +1992,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="lutro_libretro.so">
+    <extension point="kodi.gameclient" library_linux="lutro_libretro.so">
       <platforms>Lutro</platforms>
       <extensions>lutro|love|lua</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2018,7 +2018,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="meteor_libretro.so">
+    <extension point="kodi.gameclient" library_linux="meteor_libretro.so">
       <platforms>Game Boy Advance</platforms>
       <extensions>gba</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2046,7 +2046,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_xscpu64_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_xscpu64_libretro.so">
       <platforms>C64 SuperCPU</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2071,7 +2071,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="ardens_libretro.so">
+    <extension point="kodi.gameclient" library_linux="ardens_libretro.so">
       <platforms>Arduboy</platforms>
       <extensions>hex|arduboy</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2093,7 +2093,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mesen_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mesen_libretro.so">
       <platforms>Nintendo Entertainment System</platforms>
       <extensions>nes|fds|unf|unif</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2120,7 +2120,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gearcoleco_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gearcoleco_libretro.so">
       <platforms>ColecoVision</platforms>
       <extensions>col|cv|bin|rom</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2148,7 +2148,7 @@
       <import addon="game.controller.msx.keyboard"/>
       <import addon="game.controller.msx.joystick"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="bluemsx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="bluemsx_libretro.so">
       <platforms>MSX/SVI/ColecoVision/SG-1000</platforms>
       <extensions>rom|ri|mx1|mx2|dsk|col|sg|sc|sf|cas|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2174,7 +2174,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.pce"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_pce_fast_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_pce_fast_libretro.so">
       <platforms>PC Engine/PCE-CD</platforms>
       <extensions>pce|cue|ccd|chd|toc|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2199,7 +2199,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gearboy_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gearboy_libretro.so">
       <platforms>Game Boy/Game Boy Color</platforms>
       <extensions>gb|dmg|gbc|cgb|sgb</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2229,7 +2229,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.gravis.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="minivmac_libretro.so">
+    <extension point="kodi.gameclient" library_linux="minivmac_libretro.so">
       <platforms>Mac68k</platforms>
       <extensions>dsk|img|zip|hvf|cmd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2253,7 +2253,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.atari.2600"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fuse_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fuse_libretro.so">
       <platforms>ZX Spectrum (various)</platforms>
       <extensions>tzx|tap|z80|rzx|scl|trd|dsk|dck|sna|szx|zip</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2280,7 +2280,7 @@
       <import addon="game.controller.msx.keyboard"/>
       <import addon="game.controller.msx.joystick"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fmsx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fmsx_libretro.so">
       <platforms>MSX</platforms>
       <extensions>rom|mx1|mx2|dsk|fdi|cas|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2307,7 +2307,7 @@
       <import addon="game.controller.nes"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="nestopia_libretro.so">
+    <extension point="kodi.gameclient" library_linux="nestopia_libretro.so">
       <platforms>Nintendo Entertainment System</platforms>
       <extensions>nes|fds|unf|unif</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2333,7 +2333,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="numero_libretro.so">
+    <extension point="kodi.gameclient" library_linux="numero_libretro.so">
       <platforms>TI83</platforms>
       <extensions>8xp|8xk|8xg</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2356,7 +2356,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="fbalpha2012_cps1_libretro.so">
+    <extension point="kodi.gameclient" library_linux="fbalpha2012_cps1_libretro.so">
       <platforms>CP System I</platforms>
       <extensions>zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2383,7 +2383,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.keyboard"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mame_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mame_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>cmd|zip|7z</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2409,7 +2409,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="virtualjaguar_libretro.so">
+    <extension point="kodi.gameclient" library_linux="virtualjaguar_libretro.so">
       <platforms>Jaguar</platforms>
       <extensions>j64|jag|rom|abs|cof|bin|prg</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2435,7 +2435,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.3do"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="opera_libretro.so">
+    <extension point="kodi.gameclient" library_linux="opera_libretro.so">
       <platforms>3DO</platforms>
       <extensions>iso|bin|chd|cue</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2460,7 +2460,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="freeintv_libretro.so">
+    <extension point="kodi.gameclient" library_linux="freeintv_libretro.so">
       <platforms>Intellivision</platforms>
       <extensions>int|bin|rom</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2486,7 +2486,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.psp"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="ppsspp_libretro.so">
+    <extension point="kodi.gameclient" library_linux="ppsspp_libretro.so">
       <platforms>PSP</platforms>
       <extensions>elf|iso|cso|prx|pbp|chd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2515,7 +2515,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_xcbm5x0_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_xcbm5x0_libretro.so">
       <platforms>CBM-5x0</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2540,7 +2540,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="x1_libretro.so">
+    <extension point="kodi.gameclient" library_linux="x1_libretro.so">
       <platforms>Sharp X1</platforms>
       <extensions>dx1|zip|2d|2hd|tfd|d88|88d|hdm|xdf|dup|tap|cmd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2565,7 +2565,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="prboom_libretro.so">
+    <extension point="kodi.gameclient" library_linux="prboom_libretro.so">
       <platforms>DOOM Game Engine</platforms>
       <extensions>wad|iwad|pwad|pk3</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2593,7 +2593,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_xplus4_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_xplus4_libretro.so">
       <platforms>PLUS/4</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2618,7 +2618,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="craft_libretro.so">
+    <extension point="kodi.gameclient" library_linux="craft_libretro.so">
       <platforms>Minecraft Game Clone</platforms>
       <extensions/>
       <supports_vfs>true</supports_vfs>
@@ -2648,7 +2648,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.gravis.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mu_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mu_libretro.so">
       <platforms>Palm OS</platforms>
       <extensions>prc|pqa|img|pdb|zip</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2673,7 +2673,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="easyrpg_libretro.so">
+    <extension point="kodi.gameclient" library_linux="easyrpg_libretro.so">
       <platforms>RPG Maker 2000/2003 Game Engine</platforms>
       <extensions>ldb|zip|lzh|easyrpg</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2701,7 +2701,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_x64sc_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_x64sc_libretro.so">
       <platforms>C64</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2727,7 +2727,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="nxengine_libretro.so">
+    <extension point="kodi.gameclient" library_linux="nxengine_libretro.so">
       <platforms>Cave Story Game Engine</platforms>
       <extensions>exe</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2753,7 +2753,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.dreamcast"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="flycast_libretro.so">
+    <extension point="kodi.gameclient" library_linux="flycast_libretro.so">
       <platforms>Sega Dreamcast</platforms>
       <extensions>chd|cdi|elf|bin|cue|gdi|lst|zip|dat|7z|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2779,7 +2779,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="a5200_libretro.so">
+    <extension point="kodi.gameclient" library_linux="a5200_libretro.so">
       <platforms>Atari 5200</platforms>
       <extensions>a52|bin</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2804,7 +2804,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="quasi88_libretro.so">
+    <extension point="kodi.gameclient" library_linux="quasi88_libretro.so">
       <platforms>PC-8000 / PC-8800 series</platforms>
       <extensions>d88|u88|m3u</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2826,7 +2826,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="applewin_libretro.so">
+    <extension point="kodi.gameclient" library_linux="applewin_libretro.so">
       <platforms>II</platforms>
       <extensions>bin|do|dsk|nib|po|gz|woz|zip|2mg|2img|iie|apl|hdv|yaml|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2848,7 +2848,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_supafaust_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_supafaust_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2873,7 +2873,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="b2_libretro.so">
+    <extension point="kodi.gameclient" library_linux="b2_libretro.so">
       <platforms>BBC Micro</platforms>
       <extensions>ssd|dsd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2900,7 +2900,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.gravis.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="dosbox_svn_libretro.so">
+    <extension point="kodi.gameclient" library_linux="dosbox_svn_libretro.so">
       <platforms>DOS</platforms>
       <extensions>exe|com|bat|conf|cue|iso|img|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -2926,7 +2926,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.atari.lynx"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_lynx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_lynx_libretro.so">
       <platforms>Lynx</platforms>
       <extensions>lnx|lyx|bll|o</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2952,7 +2952,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gameboy"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="tgbdual_libretro.so">
+    <extension point="kodi.gameclient" library_linux="tgbdual_libretro.so">
       <platforms>Game Boy/Game Boy Color</platforms>
       <extensions>cgb|dmg|gb|gbc|sgb</extensions>
       <supports_vfs>true</supports_vfs>
@@ -2978,7 +2978,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="retro8_libretro.so">
+    <extension point="kodi.gameclient" library_linux="retro8_libretro.so">
       <platforms>PICO-8</platforms>
       <extensions>p8|png</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3001,7 +3001,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.nds"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="desmume2015_libretro.so">
+    <extension point="kodi.gameclient" library_linux="desmume2015_libretro.so">
       <platforms>Nintendo DS</platforms>
       <extensions>nds|ids|bin</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3027,7 +3027,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="pokemini_libretro.so">
+    <extension point="kodi.gameclient" library_linux="pokemini_libretro.so">
       <platforms>Pokemon Mini</platforms>
       <extensions>min</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3055,7 +3055,7 @@
       <import addon="game.controller.amstrad.keyboard"/>
       <import addon="game.controller.amstrad.joystick"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="cap32_libretro.so">
+    <extension point="kodi.gameclient" library_linux="cap32_libretro.so">
       <platforms>CPC/GX4000</platforms>
       <extensions>dsk|sna|zip|tap|cdt|voc|cpr|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3085,7 +3085,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.gravis.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="dosbox_pure_libretro.so">
+    <extension point="kodi.gameclient" library_linux="dosbox_pure_libretro.so">
       <platforms>DOS</platforms>
       <extensions>zip|dosz|exe|com|bat|iso|chd|cue|ins|img|ima|vhd|jrc|tc|m3u|m3u8|conf|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3110,7 +3110,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="swanstation_libretro.so">
+    <extension point="kodi.gameclient" library_linux="swanstation_libretro.so">
       <platforms>PlayStation</platforms>
       <extensions>exe|psexe|cue|bin|img|iso|chd|pbp|ecm|mds|psf|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3138,7 +3138,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="tyrquake_libretro.so">
+    <extension point="kodi.gameclient" library_linux="tyrquake_libretro.so">
       <platforms>Quake Game Engine</platforms>
       <extensions>pak</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3164,7 +3164,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.gba"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mgba_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mgba_libretro.so">
       <platforms>Game Boy/Game Boy Color/Game Boy Advance</platforms>
       <extensions>gb|gbc|gba</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3192,7 +3192,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.atari.2600"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="hatari_libretro.so">
+    <extension point="kodi.gameclient" library_linux="hatari_libretro.so">
       <platforms>Atari ST/STE/TT/Falcon</platforms>
       <extensions>st|msa|zip|stx|dim|ipf|vhd|gem|ide|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3222,7 +3222,7 @@
       <import addon="game.controller.snes.multitap"/>
       <import addon="game.controller.snes.mouse"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="snes9x2005_libretro.so">
+    <extension point="kodi.gameclient" library_linux="snes9x2005_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3252,7 +3252,7 @@
       <import addon="game.controller.mouse"/>
       <import addon="game.controller.gravis.gamepad"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="nekop2_libretro.so">
+    <extension point="kodi.gameclient" library_linux="nekop2_libretro.so">
       <platforms>PC-98</platforms>
       <extensions>d98|zip|98d|fdi|fdd|2hd|tfd|d88|88d|hdm|xdf|dup|cmd|hdi|thd|nhd|hdd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3280,7 +3280,7 @@
       <import addon="game.controller.keyboard"/>
       <import addon="game.controller.default"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vice_x64_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vice_x64_libretro.so">
       <platforms>C64</platforms>
       <extensions>d64|d71|d80|d81|d82|g64|g41|x64|t64|tap|prg|p00|crt|bin|zip|gz|d6z|d7z|d8z|g6z|g4z|x6z|cmd|m3u|vfl|vsf|nib|nbz|d2m|d4m|/</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3305,7 +3305,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="px68k_libretro.so">
+    <extension point="kodi.gameclient" library_linux="px68k_libretro.so">
       <platforms>Sharp X68000</platforms>
       <extensions>dim|img|d88|88d|hdm|dup|2hd|xdf|hdf|cmd|m3u</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3330,7 +3330,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="neocd_libretro.so">
+    <extension point="kodi.gameclient" library_linux="neocd_libretro.so">
       <platforms>SNK Neo Geo CD</platforms>
       <extensions>cue|chd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3356,7 +3356,7 @@
       <import addon="game.libretro" version="1.0.0"/>
       <import addon="game.controller.n64"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mupen64plus_next_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mupen64plus_next_libretro.so">
       <platforms>Nintendo 64</platforms>
       <extensions>n64|v64|z64|ndd|bin|u1</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3383,7 +3383,7 @@
       <import addon="game.controller.pcfx.mouse"/>
       <import addon="game.controller.pcfx"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mednafen_pcfx_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mednafen_pcfx_libretro.so">
       <platforms>PC-FX</platforms>
       <extensions>cue|ccd|toc|chd</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3408,7 +3408,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="gw_libretro.so">
+    <extension point="kodi.gameclient" library_linux="gw_libretro.so">
       <platforms>Handheld Electronic</platforms>
       <extensions>mgw</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3433,7 +3433,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="mame2000_libretro.so">
+    <extension point="kodi.gameclient" library_linux="mame2000_libretro.so">
       <platforms>Arcade (various)</platforms>
       <extensions>zip|7z</extensions>
       <supports_vfs>false</supports_vfs>
@@ -3463,7 +3463,7 @@
       <import addon="game.controller.snes.multitap"/>
       <import addon="game.controller.snes.mouse"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="snes9x2010_libretro.so">
+    <extension point="kodi.gameclient" library_linux="snes9x2010_libretro.so">
       <platforms>Super Nintendo Entertainment System</platforms>
       <extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
       <supports_vfs>true</supports_vfs>
@@ -3488,7 +3488,7 @@
     <requires>
       <import addon="game.libretro" version="1.0.0"/>
     </requires>
-    <extension point="kodi.gameclient" library_android="vircon32_libretro.so">
+    <extension point="kodi.gameclient" library_linux="vircon32_libretro.so">
       <platforms>Vircon32</platforms>
       <extensions>v32|V32</extensions>
       <supports_vfs>false</supports_vfs>
