@@ -299,7 +299,8 @@ class KodiGameAddon():
                 'file': os.path.join('install', self.name, '{}.{}'.format(
                     self.name, LibretroWrapper.EXT)),
                 'loaded': False,
-                'soname': '{}_libretro'.format(addon_config[4].get(
+                # 'soname': '{}_libretro'.format(addon_config[4].get(
+                'soname': '{}'.format(addon_config[4].get(
                     'soname', game_name)),
                 'jnisoname': addon_config[4].get('jnisoname', 'libretro'),
             },

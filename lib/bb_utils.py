@@ -269,7 +269,7 @@ def generate_info_description(info_dict_in):
 	return description_out
 
 def download_binary_and_generate_settings(source=None,current_platform=None,wrapper_platform=None,download_folder_path=None):
-	print('Downloading binary for %(core_name)s.  Current platform: %(current_platform)s' % {'core_name': os.path.basename(source),'current_platform':current_platform})
+	print('Downloading binary for %(core_name)s. Current platform: %(current_platform)s' % {'core_name': os.path.basename(source),'current_platform':current_platform})
 	dict_out = None
 	supporting_dict = None
 	success = False
@@ -280,7 +280,7 @@ def download_binary_and_generate_settings(source=None,current_platform=None,wrap
 			if dict_out is not None:
 				success=True
 	else:
-		print('Unable to generate settings for %(core_name)s.  Current platform: %(current_platform)s.  Required platform: %(wrapper_platform)s' % {'core_name': source,'current_platform':current_platform,'wrapper_platform':wrapper_platform})
+		print('Unable to generate settings for %(core_name)s. Current platform: %(current_platform)s. Required platform: %(wrapper_platform)s' % {'core_name': source,'current_platform':current_platform,'wrapper_platform':wrapper_platform})
 
 	return success,dict_out,supporting_dict
 
