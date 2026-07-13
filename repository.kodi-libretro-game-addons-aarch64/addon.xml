@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kodi_libretro_game_addons_aarch64_2" name="Kodi Libretro Buildbot Game Addons ARM64 (aarch64)" version="1.0.1" provider-name="bartosz-antosik">
+<addon id="repository.kodi_libretro_game_addons_aarch64" name="Kodi Libretro Buildbot Game Addons ARM64 (aarch64)" version="1.0.1" provider-name="bartosz-antosik">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
